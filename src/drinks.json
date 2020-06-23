@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "latte",
+    "image": "https://cdn.pixabay.com/photo/2015/10/12/14/54/coffee-983955__480.jpg"
+  },
+  {
+    "id": 2,
+    "name": "tea",
+    "image": "https://cdn.pixabay.com/photo/2015/07/02/20/37/cup-829527__480.jpg"
+  },
+  {
+    "id": 3,
+    "name": "smoothie",
+    "image": "https://cdn.pixabay.com/photo/2018/09/23/09/31/smoothie-3697014__480.jpg"
+  },
+  {
+    "id": 4,
+    "name": "detox",
+    "image": "https://cdn.pixabay.com/photo/2016/06/29/17/14/water-1487304__480.jpg"
+  },
+  {
+    "id": 5,
+    "name": "beer",
+    "image": "https://cdn.pixabay.com/photo/2018/11/08/22/12/beer-3803425__480.jpg"
+  },
+  {
+    "id": 6,
+    "name": "martini",
+    "image": "https://cdn.pixabay.com/photo/2019/07/17/19/19/cocktail-4344724__480.jpg"
+  },
+  {
+    "id": 7,
+    "name": "bubbles",
+    "image": "https://cdn.pixabay.com/photo/2015/11/07/11/02/sparkling-wine-1030754__480.jpg"
+  },
+  {
+    "id": 8,
+    "name": "red",
+    "image": "https://cdn.pixabay.com/photo/2016/07/04/02/40/wine-1495859__480.jpg"
+  },
+  {
+    "id": 9,
+    "name": "shot",
+    "image": "https://cdn.pixabay.com/photo/2019/03/04/22/34/lit-whiskey-shot-4035278__480.jpg"
+  },
+  {
+    "id": 10,
+    "name": "mojito",
+    "image": "https://cdn.pixabay.com/photo/2018/08/07/00/29/drink-3588804__480.jpg"
+  },
+  {
+    "id": 11,
+    "name": "water",
+    "image": "https://cdn.pixabay.com/photo/2017/05/15/17/43/calm-2315559__480.jpg"
+  },
+  {
+    "id": 12,
+    "name": "iced-tea",
+    "image": "https://cdn.pixabay.com/photo/2017/04/11/03/52/tea-2220485__480.jpg"
+  }
+]
