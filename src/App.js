@@ -11,27 +11,46 @@ class App extends Component {
     clickedDrinks: [],
   };
 
-  cardHandler = () => {
+  cardHandler = (id) => {
+    let test = id.target.getAttribute("data-drinkid");
+    console.log(test);
+    this.arrayShuffler();
+    if (this.state.clickedDrinks.includes(test)) {
+      console.log("LOSER");
+    }
     this.setState({
       score: this.state.score + 1,
-      drink: this.arrayShuffler(this.state.drinks),
+      clickedDrinks: [],
     });
+    let newscore = this.state.score;
+    if (newscore >= 12) {
+      // console.log("you won");
+      alert("WINNER");
+      this.setState({
+        score: 0,
+        highScore: this.state.score,
+      });
+    }
   };
 
-  arrayShuffler = (array) => {
-    array.sort(() => Math.random() - 0.5);
+  arrayShuffler = () => {
+    var drinkCopyArray = [...this.state.drinks];
+    drinkCopyArray.sort(() => Math.random() - 0.5);
+    this.setState({
+      drinks: drinkCopyArray,
+    });
+
+    // console.log(drinks);
   };
 
   render() {
     return (
       <div className="App">
-        <Jumbotron score={this.state.score} />
+        <Jumbotron score={this.state.score} highScore={this.state.highScore} />
 
         <div className="container">
           <div className="row">
             {this.state.drinks.map((drink, index) => {
-              console.log(drink.id);
-              // console.log(...drink);
               return (
                 <Cards key={index} drink={drink} onClick={this.cardHandler} />
               );
