@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Clicky-Game/static/css/main.c9696d51.chunk.css",
-    "main.js": "/Clicky-Game/static/js/main.68652857.chunk.js",
-    "main.js.map": "/Clicky-Game/static/js/main.68652857.chunk.js.map",
+    "main.css": "/Clicky-Game/static/css/main.a15bbeed.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.9ec7a56f.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.9ec7a56f.chunk.js.map",
     "runtime-main.js": "/Clicky-Game/static/js/runtime-main.758e6d5e.js",
     "runtime-main.js.map": "/Clicky-Game/static/js/runtime-main.758e6d5e.js.map",
-    "static/js/2.7d72e063.chunk.js": "/Clicky-Game/static/js/2.7d72e063.chunk.js",
-    "static/js/2.7d72e063.chunk.js.map": "/Clicky-Game/static/js/2.7d72e063.chunk.js.map",
+    "static/js/2.0bae2637.chunk.js": "/Clicky-Game/static/js/2.0bae2637.chunk.js",
+    "static/js/2.0bae2637.chunk.js.map": "/Clicky-Game/static/js/2.0bae2637.chunk.js.map",
     "index.html": "/Clicky-Game/index.html",
-    "precache-manifest.95157913b2cb7c2a7c4923b8aa4a6a14.js": "/Clicky-Game/precache-manifest.95157913b2cb7c2a7c4923b8aa4a6a14.js",
+    "precache-manifest.f56deb82c0bbabd3e76ffcb70f0a9464.js": "/Clicky-Game/precache-manifest.f56deb82c0bbabd3e76ffcb70f0a9464.js",
     "service-worker.js": "/Clicky-Game/service-worker.js",
-    "static/css/main.c9696d51.chunk.css.map": "/Clicky-Game/static/css/main.c9696d51.chunk.css.map",
-    "static/js/2.7d72e063.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.7d72e063.chunk.js.LICENSE.txt"
+    "static/css/main.a15bbeed.chunk.css.map": "/Clicky-Game/static/css/main.a15bbeed.chunk.css.map",
+    "static/js/2.0bae2637.chunk.js.LICENSE.txt": "/Clicky-Game/static/js/2.0bae2637.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.758e6d5e.js",
-    "static/js/2.7d72e063.chunk.js",
-    "static/css/main.c9696d51.chunk.css",
-    "static/js/main.68652857.chunk.js"
+    "static/js/2.0bae2637.chunk.js",
+    "static/css/main.a15bbeed.chunk.css",
+    "static/js/main.9ec7a56f.chunk.js"
   ]
 }
