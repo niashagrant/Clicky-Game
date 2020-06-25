@@ -11,26 +11,43 @@ class App extends Component {
     clickedDrinks: [],
   };
 
-  cardHandler = (id) => {
-    let test = id.target.getAttribute("data-drinkid");
-    console.log(test);
+  cardHandler = (event) => {
+    let id = event.target.getAttribute("data-drinkid");
+    console.log(id);
     this.arrayShuffler();
-    if (this.state.clickedDrinks.includes(test)) {
+    if (this.state.clickedDrinks.includes(id)) {
       console.log("LOSER");
-    }
-    this.setState({
-      score: this.state.score + 1,
-      clickedDrinks: [],
-    });
-    let newscore = this.state.score;
-    if (newscore >= 12) {
-      // console.log("you won");
-      alert("WINNER");
+      alert("loser");
       this.setState({
+        clickedDrinks: [],
         score: 0,
-        highScore: this.state.score,
       });
+    } else {
+      var arrayCopy = [...this.state.clickedDrinks];
+      arrayCopy.push(id);
+      if (arrayCopy.length === 12) {
+        console.log("winner");
+        alert("winner");
+      } else {
+        this.setState({
+          clickedDrinks: arrayCopy,
+          score: this.state.score + 1,
+        });
+      }
     }
+    // this.setState({
+    //   score: this.state.score + 1,
+    //   clickedDrinks: [],
+    // });
+    // let newscore = this.state.score;
+    // if (newscore >= 12) {
+    //   console.log("you won");
+    //   alert("WINNER");
+    //   this.setState({
+    //     score: 0,
+    //     highScore: this.state.score,
+    //   });
+    // }
   };
 
   arrayShuffler = () => {
