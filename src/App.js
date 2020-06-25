@@ -17,7 +17,9 @@ class App extends Component {
     this.arrayShuffler();
     if (this.state.clickedDrinks.includes(id)) {
       console.log("LOSER");
-      alert("loser");
+      alert(
+        "You already selected that drink! Sorry you must start again. Click 'OK' to play again!"
+      );
       this.setState({
         clickedDrinks: [],
         score: 0,
@@ -27,11 +29,15 @@ class App extends Component {
       arrayCopy.push(id);
       if (arrayCopy.length === 12) {
         console.log("winner");
-        alert("winner");
+        alert("You have a great memory! Even after all that alcohol :p!");
       } else {
         this.setState({
           clickedDrinks: arrayCopy,
           score: this.state.score + 1,
+          highScore:
+            this.state.score + 1 > this.state.highScore
+              ? this.state.highScore + 1
+              : this.state.highScore,
         });
       }
     }
