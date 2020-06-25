@@ -11,6 +11,10 @@
   height: 300px;
 }
 
+img {
+  height: 200px;
+}
+
 @media (max-width: 767.98px) {
   .card-img {
     height: 300px;
